@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "webapp test",
   "main": "main.js",
+  "dependencies": {
+    "express": "*",//ここの値を*に
+    "socket.io": "*",//ここの値を*に
+  },
   "scripts": {
-    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+    "start": "node main.js",//start node script
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aym0125/node_tutorial.git"
-  },
+  "engines": {//ここ追加
+    "node": "8.9.3"//ここ追加（自分のnodeのバージョンを調べて入れる）
+  },//ここ追加
   "author": "aym",
   "license": "MIT",
   "bugs": {
