@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "description": "hello world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aym0125/webapp-testheroku.git"
+  },
+  "keywords": [
+    "hello",
+    "world"
+  ],
+  "author": "aym",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aym0125/webapp-testheroku/issues"
+  },
+  "homepage": "https://github.com/aym0125/webapp-testheroku#readme"
+}
