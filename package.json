@@ -4,8 +4,8 @@
   "description": "webapp test",
   "main": "main.js",
   "dependencies": {
-    "express": "*",//ここの値を*に
-    "socket.io": "*",//ここの値を*に
+    "express": "*",
+    "socket.io": "*",
   },
   "scripts": {
     "start": "node main.js",//start node script
