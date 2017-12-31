@@ -6,7 +6,7 @@
   "dependencies": {
     "express": "*",
     "socket.io": "*",
-  },
+  }
   "scripts": {
     "start": "node main.js",//start node script
   },
