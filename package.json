@@ -4,6 +4,7 @@
   "description": "hello world",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,8 +17,14 @@
   ],
   "author": "aym",
   "license": "MIT",
+  "engines": {
+    "node": "8.9.x"
+  },
   "bugs": {
     "url": "https://github.com/aym0125/webapp-testheroku/issues"
   },
-  "homepage": "https://github.com/aym0125/webapp-testheroku#readme"
+  "homepage": "https://github.com/aym0125/webapp-testheroku#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
