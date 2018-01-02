@@ -1,22 +1,21 @@
 {
-  "name": "samole",
+  "name": "sample",
   "version": "0.0.0",
-  "description": "webapp test",
-  "main": "main.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node main",
-    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aym0125/node_tutorial.git"
+    "url": "git+https://github.com/aym0125/webapp-testheroku.git"
   },
   "author": "aym",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aym0125/node_tutorial/issues"
+    "url": "https://github.com/aym0125/webapp-testheroku/issues"
   },
-  "homepage": "https://github.com/aym0125/node_tutorial#readme",
+  "homepage": "https://github.com/aym0125/webapp-testheroku#readme",
   "dependencies": {
     "ejs": "^2.5.7",
     "express": "^4.16.2"

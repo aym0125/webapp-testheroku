@@ -1,12 +1,12 @@
 {
-  "name": "samole",
-  "description": "webapp test",
-  "main": "main.js",
+  "name": "sample",
+  "description": "",
+  "main": "index.js",
   "authors": [
     "aym"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/aym0125/node_tutorial",
+  "homepage": "https://github.com/aym0125/webapp-testheroku",
   "private": true,
   "ignore": [
     "**/.*",
@@ -16,7 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "2",
+    "jQuery": "2",
     "bootstrap": "^3.3.7"
   }
 }
